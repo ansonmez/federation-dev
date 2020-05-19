@@ -1,7 +1,7 @@
 commonLabels:
   org: RHTE
 commonAnnotations:
-  note: Hello, I am cluster2!
+  note: Hello, I am prod cluster!
 bases:
 - ../../base
 patchesStrategicMerge:
