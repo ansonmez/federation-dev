@@ -3,4 +3,3 @@ kind: Route
 metadata:
   name: the-route
 spec:
-  host: changeme
