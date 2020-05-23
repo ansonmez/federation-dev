@@ -1,7 +1,7 @@
 commonLabels:
   org: RHTE
 commonAnnotations:
-  note: Hello, I am test cluster!
+  note: Hello, I am Ankara cluster!
 bases:
 - ../../base
 patchesStrategicMerge:
