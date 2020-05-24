@@ -5,9 +5,3 @@ metadata:
   namespace: pacman
 spec:
   host: pacman-ingress.apps.heisenbug.lplab.online
-  port:
-    targetPort: 8080
-  to:
-    kind: Service
-    name: pacman
-    weight: 100

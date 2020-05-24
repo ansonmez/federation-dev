@@ -1,0 +1,16 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: pacman
+  namespace: pacman
+spec:
+  host: placeholder
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: pacman
+    weight: 100

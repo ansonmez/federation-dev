@@ -4,15 +4,4 @@ metadata:
   name: pacman
   namespace: pacman
 spec:
-  host: pacman-ingress.apps.jelly.lplab.online
-  port:
-    targetPort: 8080
-  to:
-    kind: Service
-    name: pacman
-    weight: 100
-status:
-  ingress:
-  - conditions:
-    - status: "True"
-      type: Admitted
+  host: pacman-pacman.apps.jelly.lplab.online
