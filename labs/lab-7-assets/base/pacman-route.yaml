@@ -4,9 +4,7 @@ metadata:
   name: pacman
   namespace: pacman
 spec:
-  host: placeholder
-  tls:
-    termination: edge
+  host: pacman-ingress.apps.as4xy.lp.int
   port:
     targetPort: 8080
   to:
